@@ -28,7 +28,7 @@
     I Semestre 2025
   </p> 
   <p align="center">
-    Aplicación m´vil del repositorio para la CCSS
+    Aplicación móvil del repositorio para la CCSS
   </p> 
   <p align="center">
   <p align="center">
