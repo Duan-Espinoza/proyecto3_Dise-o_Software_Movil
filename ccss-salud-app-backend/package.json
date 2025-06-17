@@ -1,21 +1,18 @@
 {
   "name": "ccss-salud-app-backend",
   "version": "1.0.0",
-  "description": "Backend for the ccss-salud-app mobile application using Node.js and SQL Server.",
-  "main": "src/app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/app.js",
-    "dev": "nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "mssql": "^7.1.0",
-    "dotenv": "^10.0.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
-  },
-  "author": "Your Name",
-  "license": "ISC"
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mssql": "^11.0.1"
+  }
 }
