@@ -1,42 +1,39 @@
-//BlogScreen.tsx
-import React from 'react';
-import { View, Text, StyleSheet, FlatList, TouchableOpacity, Linking } from 'react-native';
-import HeaderLogo from '../components/HeaderLogo';
-import { getAllBlogs } from '../services/api';
-import { COLORS } from '../constants/colors';
 import { useEffect, useState } from 'react';
+import { View, Text, StyleSheet, FlatList, TouchableOpacity } from 'react-native';
+import { getAllBlogs } from '../services/api';
 import { Blog } from '../types/types';
-import { useNavigation } from '@react-navigation/native';
-import { StackNavigationProp } from '@react-navigation/stack';
+import { COLORS } from '../constants/colors';
 
-// Define RootStackParamList if not already defined elsewhere
+import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import type { RouteProp } from '@react-navigation/native';
+
 type RootStackParamList = {
-  Blog: { id_blog: number };
-  // add other screens here if needed
+  Blogs: undefined;
+  BlogDetail: { id: number };
 };
 
-type BlogScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Blog'>;
-export default function BlogsScreen() {
+type BlogsScreenNavigationProp = NativeStackNavigationProp<RootStackParamList, 'Blogs'>;
+
+interface BlogsScreenProps {
+  navigation: BlogsScreenNavigationProp;
+  route: RouteProp<RootStackParamList, 'Blogs'>;
+}
+
+export default function BlogsScreen({ navigation }: BlogsScreenProps) {
   const [blogs, setBlogs] = useState<Blog[]>([]);
-  const navigation = useNavigation<BlogScreenNavigationProp>();
 
   useEffect(() => {
     getAllBlogs().then(res => setBlogs(res.data));
   }, []);
 
-  const openBlog = (id_blog: number) => {
-    navigation.navigate('Blog', { id_blog });
-  };
-
   return (
     <View style={styles.container}>
-      <HeaderLogo />
       <Text style={styles.title}>Blogs</Text>
       <FlatList
         data={blogs}
         keyExtractor={item => item.id_blog.toString()}
         renderItem={({ item }) => (
-          <TouchableOpacity style={styles.card} onPress={() => openBlog(item.id_blog)}>
+          <TouchableOpacity style={styles.card} onPress={() => navigation.navigate('BlogDetail', { id: item.id_blog })}>
             <Text style={styles.name}>{item.titulo}</Text>
           </TouchableOpacity>
         )}
@@ -44,6 +41,8 @@ export default function BlogsScreen() {
     </View>
   );
 }
+
+// ...styles...
 
 const styles = StyleSheet.create({
   container: {

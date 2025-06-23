@@ -1,26 +1,25 @@
-import { FlatList, Text, View, StyleSheet, TouchableOpacity } from 'react-native';
 import { useEffect, useState } from 'react';
+import { FlatList, Text, View, StyleSheet, TouchableOpacity } from 'react-native';
 import { getAllDocuments } from '../services/api';
 import { COLORS } from '../constants/colors';
+import { Document } from '../types/types';
 
-import type { StackNavigationProp } from '@react-navigation/stack';
+import { StackNavigationProp } from '@react-navigation/stack';
+import { RouteProp } from '@react-navigation/native';
 
+// Define your stack param list
 type RootStackParamList = {
+  DocumentsScreen: undefined;
   DocumentDetail: { id: number };
-  // add other routes here if needed
 };
 
-type DocumentsScreenProps = {
-  navigation: StackNavigationProp<RootStackParamList, 'DocumentDetail'>;
+type DocumentsScreenNavigationProp = StackNavigationProp<RootStackParamList, 'DocumentsScreen'>;
+
+type Props = {
+  navigation: DocumentsScreenNavigationProp;
 };
 
-type Document = {
-  id_pdf: number;
-  nombre_pdf: string;
-  // add other fields if needed
-};
-
-export default function DocumentsScreen({ navigation }: DocumentsScreenProps) {
+export default function DocumentsScreen({ navigation }: Props) {
   const [docs, setDocs] = useState<Document[]>([]);
 
   useEffect(() => {
@@ -44,6 +43,8 @@ export default function DocumentsScreen({ navigation }: DocumentsScreenProps) {
     </View>
   );
 }
+
+// ...styles...
 
 const styles = StyleSheet.create({
   title: { fontSize: 22, fontWeight: 'bold', color: COLORS.primary, margin: 16 },
