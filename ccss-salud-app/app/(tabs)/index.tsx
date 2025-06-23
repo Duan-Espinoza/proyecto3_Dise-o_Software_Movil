@@ -1,7 +1,13 @@
 import { View, Text, StyleSheet } from 'react-native';
+import { useEffect } from 'react';
 import HeaderLogo from '../components/HeaderLogo';
+import { registerForPushNotificationsAsync } from '../utils/notifications';
 
 export default function HomeTab() {
+  useEffect(() => {
+    registerForPushNotificationsAsync();
+  }, []);
+
   return (
     <View style={styles.container}>
       <HeaderLogo />

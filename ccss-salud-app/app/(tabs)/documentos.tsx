@@ -3,6 +3,7 @@ import { View, Text, StyleSheet, FlatList, TouchableOpacity, Linking } from 'rea
 import HeaderLogo from '../components/HeaderLogo';
 import { getAllDocuments } from '../services/api';
 import { COLORS } from '../constants/colors';
+import { registerForPushNotificationsAsync, sendLocalNotification } from '../utils/notifications';
 
 type Document = {
   id_pdf: number;
@@ -13,7 +14,25 @@ export default function DocumentosTab() {
   const [docs, setDocs] = useState<Document[]>([]);
 
   useEffect(() => {
-    getAllDocuments().then(res => setDocs(res.data));
+    registerForPushNotificationsAsync();
+
+    let prevCount = 0;
+    getAllDocuments().then(res => {
+      prevCount = res.data.length;
+      setDocs(res.data);
+    });
+
+    const interval = setInterval(() => {
+      getAllDocuments().then(res => {
+        if (res.data.length > prevCount) {
+          sendLocalNotification('¡Nuevo documento!', 'Hay un nuevo documento PDF disponible.');
+        }
+        prevCount = res.data.length;
+        setDocs(res.data);
+      });
+    }, 10000); // cada 10 segundos
+
+    return () => clearInterval(interval);
   }, []);
 
   const openPdf = (id_pdf: number) => {
