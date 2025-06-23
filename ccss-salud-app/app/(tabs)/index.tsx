@@ -1,8 +1,10 @@
 import { View, Text, StyleSheet } from 'react-native';
+import HeaderLogo from '../components/HeaderLogo';
 
 export default function HomeTab() {
   return (
     <View style={styles.container}>
+      <HeaderLogo />
       <Text style={styles.title}>Bienvenido a la app CCSS</Text>
       <Text style={styles.subtitle}>Selecciona una pestaña para comenzar</Text>
     </View>

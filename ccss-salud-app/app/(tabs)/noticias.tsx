@@ -1,8 +1,10 @@
 import { View, Text, StyleSheet } from 'react-native';
+import HeaderLogo from '../components/HeaderLogo';
 
 export default function NoticiasTab() {
   return (
     <View style={styles.container}>
+      <HeaderLogo />
       <Text style={styles.title}>Noticias</Text>
       <Text style={styles.subtitle}>Aquí se mostrarán las noticias recientes.</Text>
     </View>

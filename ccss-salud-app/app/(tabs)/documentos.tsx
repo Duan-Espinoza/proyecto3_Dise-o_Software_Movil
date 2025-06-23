@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, FlatList, TouchableOpacity, Linking } from 'react-native';
+import HeaderLogo from '../components/HeaderLogo';
 import { getAllDocuments } from '../services/api';
 import { COLORS } from '../constants/colors';
 
 type Document = {
   id_pdf: number;
   nombre_pdf: string;
-  // agrega aquí otras propiedades si las hay
 };
 
 export default function DocumentosTab() {
@@ -17,13 +17,13 @@ export default function DocumentosTab() {
   }, []);
 
   const openPdf = (id_pdf: number) => {
-    // Cambia la URL por la de tu backend real
     const pdfUrl = `http://TU_BACKEND/api/documentos/${id_pdf}/pdf`;
     Linking.openURL(pdfUrl);
   };
 
   return (
     <View style={styles.container}>
+      <HeaderLogo />
       <Text style={styles.title}>Documentos PDF</Text>
       <FlatList
         data={docs}

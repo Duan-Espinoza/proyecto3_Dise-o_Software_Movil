@@ -1,8 +1,10 @@
 import { View, Text, StyleSheet } from 'react-native';
+import HeaderLogo from '../components/HeaderLogo';
 
 export default function BlogsTab() {
   return (
     <View style={styles.container}>
+      <HeaderLogo />
       <Text style={styles.title}>Blogs</Text>
       <Text style={styles.subtitle}>Aquí se mostrarán los blogs recientes.</Text>
     </View>
