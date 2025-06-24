@@ -9,7 +9,7 @@ import HeaderLogo from './components/HeaderLogo';
 type Documento = {
   id_pdf: number;
   nombre_pdf: string;
-  archivo: string;
+  archivo: string; // ahora es una URL
 };
 
 export default function DocumentoDetalleScreen() {
@@ -32,12 +32,7 @@ export default function DocumentoDetalleScreen() {
   }
 
   const handleOpenPdf = async () => {
-    // Abre el PDF en el navegador del dispositivo
-    await WebBrowser.openBrowserAsync(
-      // Ruta relativa al servidor de desarrollo de Expo
-      // Si usas un servidor estático, cambia la ruta
-      `${window.location.origin}/data/pdf/${doc.archivo}`
-    );
+    await WebBrowser.openBrowserAsync(doc.archivo);
   };
 
   return (

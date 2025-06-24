@@ -2,11 +2,11 @@
   {
     "id_pdf": 1,
     "nombre_pdf": "Reglamento General",
-    "archivo": "documento1.pdf"
+    "archivo": "https://rrhh.ccss.sa.cr/funcionarios/Reglamento-Interior-de-Trabajo-CCSS.pdf"
   },
   {
     "id_pdf": 2,
     "nombre_pdf": "Ley constitutiva",
-    "archivo": "documento2.pdf"
+    "archivo": "https://www.asamblea.go.cr/sd/Documents/SERVICIOS%20BIBLIOTECARIOS/Ley%20Constitutiva%20de%20la%20Caja%20Costarricense%20de%20Seguro%20Social%20CCSS.pdf"
   }
 ]
