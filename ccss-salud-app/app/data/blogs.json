@@ -3,18 +3,48 @@
     "id_blog": 1,
     "titulo": "La importancia de la prevención",
     "imagen": "https://picsum.photos/seed/blog1/400/200",
-    "contenido": "Prevenir enfermedades es fundamental para una vida saludable. En este blog te contamos cómo..."
+    "contenido": "¡Hola comunidad CCSS! Como médico familiar con 15 años de experiencia, he visto cómo pequeños hábitos preventivos cambian vidas. La prevención no es solo exámenes médicos: comienza en tu cocina y rutina diaria. ¿Sabías que el 70% de las enfermedades crónicas podrían evitarse con acciones simples? Hoy compartiré mi 'método de las 3C': 1) Chequeos anuales personalizados según tu edad (a los 40 añade mamografía y colonoscopía), 2) Cocina consciente reduciendo sal y azúcares ocultos, y 3) Caminatas de 30 minutos 5 veces por semana. En la clínica de Tibás implementamos 'jornadas preventivas' donde enseñamos autoexámenes de piel y técnicas de relajación. ¡Descarga nuestra guía gratuita en ccss.cr/prevencion!"
   },
   {
     "id_blog": 2,
     "titulo": "Alimentación saludable en la CCSS",
     "imagen": "https://picsum.photos/seed/blog2/400/200",
-    "contenido": "La alimentación balanceada es clave para el bienestar. Descubre consejos prácticos para mejorar tu dieta..."
+    "contenido": "¿Cansado de dietas complicadas? Como nutricionista de la CCSS, he creado el plan 'Nutrición Real' para familias costarricenses. Olvídate de superalimentos caros: nuestro enfoque es aprovechar lo local. ¿Ejemplo? Sustituye el arroz blanco por arroz de palmito - ¡mismo sabor, menos carbos! En los comedores institucionales CCSS ya implementamos el 'plato del buen comer': 50% vegetales (incluyendo chayote y vainicas), 25% proteína (huevos o pescado), y 25% carbohidratos complejos (ñampí o plátano maduro). Mi truco estrella: prepara un aderezo con yogur natural, culantro y limón para tus ensaladas. ¡Te reto a probar nuestra receta de gallo pinto con quinoa en ccss.cr/recetas!"
   },
   {
     "id_blog": 3,
     "titulo": "Ejercicio y salud mental",
     "imagen": "https://picsum.photos/seed/blog3/400/200",
-    "contenido": "El ejercicio no solo beneficia el cuerpo, sino también la mente. Te explicamos cómo empezar..."
+    "contenido": "Hace tres años sufrí depresión. Hoy, como psicóloga del hospital Calderón Guardia, compruebo diariamente que el movimiento es medicina. No necesitas gimnasio: en mi programa 'Mente Activa' usamos bailes ticos para liberar endorfinas. ¿Cómo empezar? La regla 5-5-5: 5 minutos de estiramientos al despertar, 5 minutos de baile en la tarde, y 5 minutos de respiraciones antes de dormir. Estudios en nuestros EBAIS muestran que pacientes que caminan en parques urbanos reducen un 40% su ansiedad. Te invito a nuestro reto '10,000 pasos por tu salud mental' - únete gratis en ccss.cr/menteactiva"
+  },
+  {
+    "id_blog": 4,
+    "titulo": "Meditación para principiantes",
+    "imagen": "https://picsum.photos/seed/blog4/400/200",
+    "contenido": "¿Crees que meditar es 'dejar la mente en blanco'? Error común. Como instructor de mindfulness en la CCSS, enseño que es entrenar la atención. Comienza con la técnica '3-2-1': 3 cosas que ves, 2 que escuchas, 1 que sientes físicamente. En nuestras sesiones grupales en La Uruca, usamos sonidos ticos como el canto del yigüirro para anclajes sensoriales. Mi app favorita: 'Calma CCS' con meditaciones guiadas por paisajes costarricenses. Solo 5 minutos diarios reducen cortisol. ¡Descarga el audio de 'Meditación del cafetal' gratis en ccss.cr/calma!"
+  },
+  {
+    "id_blog": 5,
+    "titulo": "Sueño reparador: mitos y verdades",
+    "imagen": "https://picsum.photos/seed/blog5/400/200",
+    "contenido": "¿Roncas? ¿Te despiertas cansado? Como neumólogo del hospital México, desmiento mitos: 1) 'Roncar es normal' - FALSO, puede ser apnea, 2) 'Alcohol ayuda a dormir' - FALSO, fragmenta el sueño REM. Mi protocolo '4-7-8' para insomnio: inhala 4 segundos, retén 7, exhala 8. En nuestra clínica del sueño, descubrimos que usar calcetines para dormir mejora la calidad un 30% en adultos mayores. El mejor consejo: crea un ritual con infusión de pasiflora (flor nacional) y lectura física. ¡Suscríbete a nuestro podcast 'Noches Tranquilas' en Spotify!"
+  },
+  {
+    "id_blog": 6,
+    "titulo": "Salud bucodental en adultos",
+    "imagen": "https://picsum.photos/seed/blog6/400/200",
+    "contenido": "¡Sonríe sin miedo! Como odontóloga en Pérez Zeledón, veo que el 60% de adultos evita al dentista por temor. En la CCSS implementamos 'sedación consciente' indolora. Tips caseros: frota cáscara de plátano en encías inflamadas (el potasio reduce inflamación) y usa hilo dental antes del cepillado. ¿Sabías que masticar chicle sin azúcar 10 minutos después de comer reduce caries un 40%? En nuestro programa 'Sonrisas Mayores' regalamos kits con cepillo eléctrico y enjuague de hierbabuena. ¡Agenda tu limpieza gratuita en ccss.cr/sonrisas!"
+  },
+  {
+    "id_blog": 7,
+    "titulo": "Manejo del estrés laboral",
+    "imagen": "https://picsum.photos/seed/blog7/400/200",
+    "contenido": "¡Burnout no es normal! Tras sufrirlo como enfermera en pandemia, creé el método 'Pausa Activa CCSS' para trabajadores. La técnica estrella: microdescansos de 90 segundos cada hora usando la regla 20-20-20 (20 segundos mirando algo verde, 20 de estiramientos, 20 de respiración). En alianza con empresas, instalamos 'rincones de desconexión' con plantas y sonidos de la naturaleza. Mi herramienta favorita: el 'diario antiestrés' donde anotas 1 logro diario y 1 preocupación liberada. Descarga nuestra plantilla en ccss.cr/pausaactiva. ¡Tu salud mental es prioridad!"
+  },
+  {
+    "id_blog": 8,
+    "titulo": "Cuidado de la piel tropical",
+    "imagen": "https://picsum.photos/seed/blog8/400/200",
+    "contenido": "¡Clima tico no perdona! Como dermatóloga en Guanacaste, veo cáncer de piel en jóvenes. El error grave: solo usar bloqueador en playa. Debes aplicarlo diariamente (inclusive nublado) con FPS 50+. Mi fórmula CCSS: protector mineral con óxido de zinc + sombrero de ala ancha + gafas UV400. Remedios locales: para quemaduras leves, aplica compresas de manzanilla criolla fría. En nuestras campañas en playas regalamos muestras de bloqueador reef-safe. ¡Visita nuestros puestos de chequeo cutáneo gratuito! Agenda en ccss.cr/tupiel"
   }
 ]

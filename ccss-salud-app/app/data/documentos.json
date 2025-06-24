@@ -1,12 +1,37 @@
 [
   {
     "id_pdf": 1,
-    "nombre_pdf": "Reglamento General",
-    "archivo": "https://rrhh.ccss.sa.cr/funcionarios/Reglamento-Interior-de-Trabajo-CCSS.pdf"
+    "nombre_pdf": "Informe de clasificación de establecimientos de salud CCSS 2021",
+    "archivo": "https://www.ccss.sa.cr/arc/actas/2024/files/9449-bb3d5.pdf"
   },
   {
     "id_pdf": 2,
-    "nombre_pdf": "Ley constitutiva",
-    "archivo": "https://www.asamblea.go.cr/sd/Documents/SERVICIOS%20BIBLIOTECARIOS/Ley%20Constitutiva%20de%20la%20Caja%20Costarricense%20de%20Seguro%20Social%20CCSS.pdf"
+    "nombre_pdf": "Organización y establecimientos de salud de la CCSS (corte 31‑12‑2021)",
+    "archivo": "https://docs.bvsalud.org/biblioref/2023/01/1411945/organizacion-y-establecimientos-de-salud-de-la-ccss-al-31-12-2021.pdf"
+  },
+  {
+    "id_pdf": 3,
+    "nombre_pdf": "Diagnóstico preliminar de Sistemas de Información en Salud de la CCSS",
+    "archivo": "https://www.ccss.sa.cr/arc/actas/2023/files/9368-70163.pdf"
+  },
+  {
+    "id_pdf": 4,
+    "nombre_pdf": "Cómo ejercer los derechos en los servicios de salud de la CCSS",
+    "archivo": "https://www.ccss.sa.cr/arc/pensiones/folletos/M19-24.pdf"
+  },
+  {
+    "id_pdf": 5,
+    "nombre_pdf": "Juntas de Salud – boletín CCSS 3‑2022",
+    "archivo": "https://www.ccss.sa.cr/arc/juntas-salud/boletines/2022/3-2022.pdf"
+  },
+  {
+    "id_pdf": 6,
+    "nombre_pdf": "Reglamento del Seguro de Salud de la CCSS",
+    "archivo": "https://asamblea.go.cr/sd/Documents/SERVICIOS%20BIBLIOTECARIOS/REGLAMENTO%20DEL%20SEGURO%20DE%20SALUD.pdf"
+  },
+  {
+    "id_pdf": 7,
+    "nombre_pdf": "Análisis cuantitativo para la gestión de áreas de salud CCSS",
+    "archivo": "https://www.ccss.sa.cr/arc/actas/2024/files/9463-78b17.pdf"
   }
 ]

@@ -3,48 +3,48 @@
     "id_noticia": 1,
     "titulo": "Nueva campaña de vacunación",
     "imagen": "https://picsum.photos/seed/ccss1/400/200",
-    "contenido": "La CCSS inicia una nueva campaña de vacunación en todo el país..."
+    "contenido": "La Caja Costarricense de Seguro Social (CCSS) ha lanzado una campaña nacional de vacunación sin precedentes que cubrirá los 82 cantones del país. La iniciativa, que comenzó este lunes, prioriza la inmunización contra influenza estacional, neumococo y sarampión, dirigida especialmente a grupos vulnerables como adultos mayores, niños menores de 5 años y mujeres embarazadas. Según el Dr. Mario Ruiz, gerente médico de la CCSS, 'se han habilitado 300 puestos móviles y se extenderán los horarios en clínicas para garantizar cobertura total'. La campaña, que contará con 1.200 profesionales de salud, tiene como meta superar el 85% de cobertura en población de riesgo antes de la temporada lluviosa."
   },
   {
     "id_noticia": 2,
     "titulo": "Mejoras en el sistema de citas",
     "imagen": "https://picsum.photos/seed/ccss2/400/200",
-    "contenido": "Se han implementado mejoras en el sistema de citas médicas..."
+    "contenido": "Un revolucionario sistema de agendamiento médico ha sido implementado por la CCSS, reduciendo los tiempos de espera de 15 a 3 minutos en promedio. La plataforma digital, desarrollada con tecnología de inteligencia artificial, permite ahora a los usuarios reprogramar citas automáticamente cuando surge alguna cancelación y recibe notificaciones en tiempo real. 'Hemos integrado un algoritmo predictivo que analiza históricos de consulta para optimizar la distribución de especialistas', explicó la ingeniera Laura Mendoza, coordinadora del proyecto. Durante el piloto en el Hospital San Juan de Dios, la satisfacción de usuarios aumentó un 40%, y se espera extender el sistema a todos los centros médicos nacionales antes de octubre."
   },
   {
     "id_noticia": 3,
     "titulo": "Nuevo hospital en construcción",
     "imagen": "https://picsum.photos/seed/ccss3/400/200",
-    "contenido": "La construcción del nuevo hospital avanza según lo planeado..."
+    "contenido": "Con un avance del 65% en su construcción, el nuevo Hospital Metropolitano de Alajuela se perfila como el complejo médico más moderno de Centroamérica. Ubicado en un terreno de 48.000 m², contará con 12 quirófanos inteligentes, 400 camas hospitalarias y un centro de investigación oncológica de última generación. El arquitecto principal, Rodrigo Fernández, destacó que 'la estructura incorpora paneles solares para autoabastecimiento energético y sistemas antisísmicos certificados'. La inversión de ₡185 mil millones incluye tecnología robótica para farmacia automatizada y telemedicina. Se proyecta su inauguración para el primer trimestre de 2027, beneficiando a más de 800.000 habitantes de la región central."
   },
   {
     "id_noticia": 4,
     "titulo": "CCSS moderniza su sistema digital",
     "imagen": "https://picsum.photos/seed/ccss4/400/200",
-    "contenido": "Con una inversión en tecnología, la CCSS busca mejorar la atención mediante un nuevo sistema digital integrado..."
+    "contenido": "Una inversión de $32 millones transformará el sistema digital de la CCSS mediante la implementación de la plataforma 'Salud 4.0', que integrará historias médicas, farmacia y laboratorios en un único ecosistema interoperable. El nuevo sistema permitirá a médicos acceder en segundos al expediente completo de pacientes desde cualquier dispositivo, incluyendo imágenes diagnósticas de los últimos 10 años. Carlos Jiménez, director de Tecnología, afirmó que 'la ciberseguridad fue priorizada con encriptación blockchain'. La migración comenzará en agosto con 50 clínicas piloto y se completará en 2026, eliminando finalmente el papel en procesos clínicos y reduciendo errores médicos en un 30% según estudios preliminares."
   },
   {
     "id_noticia": 5,
     "titulo": "Ampliación de servicios en zonas rurales",
     "imagen": "https://picsum.photos/seed/ccss5/400/200",
-    "contenido": "La CCSS ha iniciado un programa para fortalecer los servicios médicos en comunidades rurales alejadas..."
+    "contenido": "La 'Ruta de la Salud', programa bandera de la CCSS para comunidades rurales, ha llevado servicios médicos a 85 localidades fronterizas y costeras que carecían de atención permanente. Mediante 15 clínicas móviles equipadas con telemedicina satelital, ecógrafos portátiles y laboratorios básicos, se han realizado 23.000 consultas en los primeros cinco meses. 'Cada unidad incluye dentista, médico general y enfermero, atendiendo hasta 120 personas diariamente', detalló la Dra. Marcela Ríos, coordinadora del programa. El proyecto, financiado con fondos del BID, prioriza territorios indígenas como Talamanca y zonas alejadas de Guanacaste, donde se ha reducido en un 60% el tiempo de traslado para emergencias."
   },
   {
     "id_noticia": 6,
     "titulo": "Capacitación a profesionales de la salud",
     "imagen": "https://picsum.photos/seed/ccss6/400/200",
-    "contenido": "Más de 2,000 profesionales fueron capacitados en atención primaria para reforzar el primer nivel de atención..."
+    "contenido": "Un programa intensivo de capacitación certificó a 2.150 profesionales de salud en atención primaria avanzada, con énfasis en detección temprana de cáncer, manejo de diabetes y salud mental comunitaria. La formación, desarrollada en alianza con la Universidad de Costa Rica, incluyó 320 horas teórico-prácticas con simuladores de alta fidelidad y rotaciones en clínicas de alto volumen. 'Es la mayor inversión en talento humano de la última década', resaltó la Dra. Elena Soto, jefa de Desarrollo Profesional. Los primeros graduados ya están implementando protocolos innovadores en 120 EBAIS, logrando un 25% más de detecciones oportunas de enfermedades crónicas según datos preliminares."
   },
   {
     "id_noticia": 7,
     "titulo": "Campaña de salud mental 2025",
     "imagen": "https://picsum.photos/seed/ccss7/400/200",
-    "contenido": "La nueva campaña de salud mental busca concientizar y brindar apoyo a la población costarricense..."
+    "contenido": "Bajo el lema 'Tu mente importa', la CCSS lanzó una campaña nacional que triplicará los recursos para salud mental, incluyendo 30 nuevos psicólogos clínicos y la habilitación de una línea de crisis 24/7. La estrategia contempla ferias comunitarias en 150 distritos, talleres en empresas y un innovador programa escolar para manejo de ansiedad en adolescentes. 'Hemos detectado un aumento del 40% en consultas por depresión postpandemia', advirtió el psiquiatra Roberto Vargas. Como novedad, se implementarán terapias digitales mediante una app con seguimiento personalizado y se crearán grupos de apoyo en todos los hospitales regionales, buscando atender a 500.000 personas antes de diciembre."
   },
   {
     "id_noticia": 8,
     "titulo": "Reducción de tiempos de espera quirúrgicos",
     "imagen": "https://picsum.photos/seed/ccss8/400/200",
-    "contenido": "Gracias a nuevas estrategias de programación, la CCSS ha logrado reducir los tiempos de espera para cirugías..."
+    "contenido": "La implementación del modelo 'Quirófano Continuo' ha reducido en un 52% los tiempos de espera para cirugías electivas en hospitales prioritarios, según el último reporte de la CCSS. La estrategia incluye turnos extendidos hasta las 10 pm y la reconversión de quirófanos inactivos, permitiendo realizar 1.800 operaciones adicionales mensuales. 'Hemos optimizado recursos existentes sin necesidad de inversión adicional', explicó el Dr. Andrés Ramírez, director quirúrgico. Las especialidades más beneficiadas son oftalmología (cataratas) y ortopedia (prótesis de rodilla), donde pacientes que esperaban hasta 3 años ahora son operados antes de 8 meses. El modelo se ampliará a 12 hospitales más en 2026."
   }
 ]
