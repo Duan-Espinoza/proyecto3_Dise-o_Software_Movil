@@ -1,45 +1,63 @@
 import React, { useEffect, useState } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, FlatList, TouchableOpacity, Image } from 'react-native';
 import HeaderLogo from '../components/HeaderLogo';
-import { registerForPushNotificationsAsync, sendLocalNotification } from '../utils/notifications';
-import { getAllNoticias } from '../services/api';
+import { COLORS } from '../constants/colors';
+import { getAllNoticiasLocal } from '../services/noticiasLocal';
+import { useRouter } from 'expo-router';
+
+type News = {
+  id_noticia: number;
+  titulo: string;
+  imagen?: string;
+  contenido: string;
+};
 
 export default function NoticiasTab() {
-  const [noticias, setNoticias] = useState<any[]>([]);
+  const [noticias, setNoticias] = useState<News[]>([]);
+  const router = useRouter();
 
   useEffect(() => {
-    registerForPushNotificationsAsync();
-
-    let prevCount = 0;
-    getAllNoticias().then(res => {
-      prevCount = res.data.length;
-      setNoticias(res.data);
-    });
-
-    const interval = setInterval(() => {
-      getAllNoticias().then(res => {
-        if (res.data.length > prevCount) {
-          sendLocalNotification('¡Nueva noticia!', 'Hay una noticia nueva disponible.');
-        }
-        prevCount = res.data.length;
-        setNoticias(res.data);
-      });
-    }, 10000); // cada 10 segundos
-
-    return () => clearInterval(interval);
+    getAllNoticiasLocal().then(setNoticias);
   }, []);
 
   return (
     <View style={styles.container}>
       <HeaderLogo />
       <Text style={styles.title}>Noticias</Text>
-      <Text style={styles.subtitle}>Aquí se mostrarán las noticias recientes.</Text>
+      <FlatList
+        data={noticias}
+        keyExtractor={item => item.id_noticia.toString()}
+        renderItem={({ item }) => (
+          <TouchableOpacity
+            style={styles.card}
+            onPress={() => router.push({ pathname: '/(tabs)/noticias', params: { id: item.id_noticia } })}
+          >
+            {item.imagen && (
+              <Image source={{ uri: item.imagen }} style={styles.image} />
+            )}
+            <Text style={styles.cardTitle}>{item.titulo}</Text>
+          </TouchableOpacity>
+        )}
+        contentContainerStyle={{ paddingBottom: 24 }}
+      />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#F6FFF8' },
-  title: { fontSize: 24, fontWeight: 'bold', color: '#00723F', marginBottom: 8 },
-  subtitle: { fontSize: 16, color: '#222' },
+  container: { flex: 1, backgroundColor: COLORS.background },
+  title: { fontSize: 24, fontWeight: 'bold', color: COLORS.primary, margin: 16 },
+  card: {
+    backgroundColor: COLORS.card,
+    borderRadius: 12,
+    padding: 12,
+    marginHorizontal: 16,
+    marginVertical: 8,
+    elevation: 2,
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+  },
+  image: { width: 80, height: 60, borderRadius: 8, marginRight: 8 },
+  cardTitle: { fontWeight: 'bold', fontSize: 16, color: COLORS.primary, flex: 1, flexWrap: 'wrap' },
 });

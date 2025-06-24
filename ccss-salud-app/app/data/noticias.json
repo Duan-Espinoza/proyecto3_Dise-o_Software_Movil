@@ -1,0 +1,50 @@
+[
+  {
+    "id_noticia": 1,
+    "titulo": "Nueva campaña de vacunación",
+    "imagen": "https://picsum.photos/seed/ccss1/400/200",
+    "contenido": "La CCSS inicia una nueva campaña de vacunación en todo el país..."
+  },
+  {
+    "id_noticia": 2,
+    "titulo": "Mejoras en el sistema de citas",
+    "imagen": "https://picsum.photos/seed/ccss2/400/200",
+    "contenido": "Se han implementado mejoras en el sistema de citas médicas..."
+  },
+  {
+    "id_noticia": 3,
+    "titulo": "Nuevo hospital en construcción",
+    "imagen": "https://picsum.photos/seed/ccss3/400/200",
+    "contenido": "La construcción del nuevo hospital avanza según lo planeado..."
+  },
+  {
+    "id_noticia": 4,
+    "titulo": "CCSS moderniza su sistema digital",
+    "imagen": "https://picsum.photos/seed/ccss4/400/200",
+    "contenido": "Con una inversión en tecnología, la CCSS busca mejorar la atención mediante un nuevo sistema digital integrado..."
+  },
+  {
+    "id_noticia": 5,
+    "titulo": "Ampliación de servicios en zonas rurales",
+    "imagen": "https://picsum.photos/seed/ccss5/400/200",
+    "contenido": "La CCSS ha iniciado un programa para fortalecer los servicios médicos en comunidades rurales alejadas..."
+  },
+  {
+    "id_noticia": 6,
+    "titulo": "Capacitación a profesionales de la salud",
+    "imagen": "https://picsum.photos/seed/ccss6/400/200",
+    "contenido": "Más de 2,000 profesionales fueron capacitados en atención primaria para reforzar el primer nivel de atención..."
+  },
+  {
+    "id_noticia": 7,
+    "titulo": "Campaña de salud mental 2025",
+    "imagen": "https://picsum.photos/seed/ccss7/400/200",
+    "contenido": "La nueva campaña de salud mental busca concientizar y brindar apoyo a la población costarricense..."
+  },
+  {
+    "id_noticia": 8,
+    "titulo": "Reducción de tiempos de espera quirúrgicos",
+    "imagen": "https://picsum.photos/seed/ccss8/400/200",
+    "contenido": "Gracias a nuevas estrategias de programación, la CCSS ha logrado reducir los tiempos de espera para cirugías..."
+  }
+]

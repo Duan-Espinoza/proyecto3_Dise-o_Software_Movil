@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, ScrollView, Image } from 'react-native';
+// Update this import to match the actual export from '../services/api'
 import { getNewsById } from '../services/api';
 import { COLORS } from '../constants/colors';
 import { News } from '../types/types';
@@ -22,7 +23,7 @@ export default function NewsDetailScreen() {
   const { id_noticia } = route.params as { id_noticia: number };
 
   useEffect(() => {
-    getNewsById(id_noticia).then(res => setNews({ ...res.data, id_noticia }));
+    getNewsById(id_noticia).then((res: { data: Omit<News, 'id_noticia'> }) => setNews({ ...res.data, id_noticia }));
   }, [id_noticia]);
 
   if (!news) {

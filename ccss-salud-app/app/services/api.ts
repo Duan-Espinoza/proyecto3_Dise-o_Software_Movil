@@ -23,3 +23,6 @@ export const getDocumentById = (id: number) => api.get(`/documento/${id}`);
 
 // Notificaciones
 export const getAllNotifications = () => api.get('/notificaciones');
+
+//getNewsById
+export const getNewsById = (id: number) => api.get(`/noticia/${id}`);
