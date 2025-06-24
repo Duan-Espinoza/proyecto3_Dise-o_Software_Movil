@@ -30,7 +30,7 @@ export default function NoticiasTab() {
         renderItem={({ item }) => (
           <TouchableOpacity
             style={styles.card}
-            onPress={() => router.push({ pathname: '/(tabs)/noticias', params: { id: item.id_noticia } })}
+            onPress={() => router.push({ pathname: '/noticiaDetalle', params: { id: item.id_noticia } })}
           >
             {item.imagen && (
               <Image source={{ uri: item.imagen }} style={styles.image} />
