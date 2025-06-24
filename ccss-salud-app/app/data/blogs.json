@@ -1,0 +1,20 @@
+[
+  {
+    "id_blog": 1,
+    "titulo": "La importancia de la prevención",
+    "imagen": "https://picsum.photos/seed/blog1/400/200",
+    "contenido": "Prevenir enfermedades es fundamental para una vida saludable. En este blog te contamos cómo..."
+  },
+  {
+    "id_blog": 2,
+    "titulo": "Alimentación saludable en la CCSS",
+    "imagen": "https://picsum.photos/seed/blog2/400/200",
+    "contenido": "La alimentación balanceada es clave para el bienestar. Descubre consejos prácticos para mejorar tu dieta..."
+  },
+  {
+    "id_blog": 3,
+    "titulo": "Ejercicio y salud mental",
+    "imagen": "https://picsum.photos/seed/blog3/400/200",
+    "contenido": "El ejercicio no solo beneficia el cuerpo, sino también la mente. Te explicamos cómo empezar..."
+  }
+]
