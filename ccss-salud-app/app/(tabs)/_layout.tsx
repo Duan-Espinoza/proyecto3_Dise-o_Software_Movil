@@ -19,6 +19,7 @@ export default function TabLayout() {
           else if (route.name === 'documentos') iconName = 'document-text';
           else if (route.name === 'blogs') iconName = 'book';
           else if (route.name === 'notificaciones') iconName = 'notifications';
+          else if (route.name === 'explore') iconName = 'search'; // Cambia el ícono a search
           return <Ionicons name={iconName as any} size={size} color={color} />;
         },
         tabBarStyle: Platform.select({
@@ -31,6 +32,7 @@ export default function TabLayout() {
       <Tabs.Screen name="noticias" options={{ title: 'Noticias' }} />
       <Tabs.Screen name="documentos" options={{ title: 'Documentos' }} />
       <Tabs.Screen name="blogs" options={{ title: 'Blogs' }} />
+      <Tabs.Screen name="explore" options={{ title: 'Búsqueda' }} /> 
       <Tabs.Screen name="notificaciones" options={{ title: 'Notificaciones' }} />
     </Tabs>
   );
