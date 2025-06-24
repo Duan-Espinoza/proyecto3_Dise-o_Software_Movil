@@ -1,0 +1,12 @@
+[
+  {
+    "id_pdf": 1,
+    "nombre_pdf": "Reglamento General",
+    "archivo": "documento1.pdf"
+  },
+  {
+    "id_pdf": 2,
+    "nombre_pdf": "Ley constitutiva",
+    "archivo": "documento2.pdf"
+  }
+]
